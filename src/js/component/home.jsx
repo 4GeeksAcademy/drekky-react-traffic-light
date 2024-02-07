@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 //create your first component
-const Home = () => {
+const TrafficLight = () => {
   const [activeLight, setActiveLight] = useState(null);
 
   const handleActiveLight = (light) => {
@@ -37,4 +37,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TrafficLight;
